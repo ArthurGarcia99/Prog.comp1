@@ -1,0 +1,45 @@
+body {
+    /* fonte de texto */
+    font-family: Arial, sans-serif;
+    background-color: aquamarine;
+    /* Usa Modelo Flexbox, conceito de caixa para posicionamento*/
+    display:flex;
+    justify-content: center; /* centraliza na horizontal*/
+    height: 100vh; /* altura da pagina (100% altura da pagina)*/
+    align-items: center; /* centraliza na vertica*/
+
+ }
+ 
+ .container {
+    background-color: white;
+    padding: 20px; /*espaçamento interno*/
+    border-radius: 10px; /* borda*/
+    text-align: center; /* texto alinhado no centro*/
+    box-shadow: 0 6px 10px; /* SOMBRA */
+ }
+    
+ button{
+background-color: aquamarine;
+color: white;
+border: none;
+padding: 10px;
+/* 10 abaixo e acima e 20 esquerda e direita*/
+    }
+    
+ 
+        /* ao passar o mouse em cima do butão*/
+button:hover {
+background-color: darkcyan;
+
+ }
+
+ .foto {
+ 
+    border-radius: 5%;/*borda com cantos arredondados*/
+
+    width: 100px;/*largura*/
+
+    height: 100px;/*altura*/
+
+    margin-bottom: 10px;/* espaçameto externo abaixo*/
+ }
